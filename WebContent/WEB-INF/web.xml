@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<element>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" version="3.1">
+
+ <servlet>
+  	<servlet-name>mon</servlet-name>
+  	<servlet-class>Register</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>mon</servlet-name>
+  	<url-pattern>/Register</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>monil</servlet-name>
+  	<servlet-class>Login</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>monil</servlet-name>
+  	<url-pattern>/Login</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>shah</servlet-name>
+  	<servlet-class>ForgotPass</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>shah</servlet-name>
+  	<url-pattern>/ForgotPass</url-pattern>
+  </servlet-mapping>
+  
+</web-app>
+</element>
